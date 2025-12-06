@@ -1,0 +1,10 @@
+.footer {
+  text-align: center;
+  background: #eee;
+  padding: 10px;
+
+}
+.footer__text {
+  margin: 0;
+  margin-right: 20px;
+}

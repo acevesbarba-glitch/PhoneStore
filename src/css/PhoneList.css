@@ -1,0 +1,103 @@
+
+.phone-list-container {
+  width: 95%;
+  flex: 1;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.filters {
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.filters--open {
+  max-height: 500px;
+}
+
+.filters--collapsed {
+  max-height: 0;
+}
+
+.filters__wrapper {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 16px;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.filters__label {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-weight: bold;
+  font-size: 16px;
+  color: #190aec;
+}
+
+.filters__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  flex: 1;
+}
+
+.filters__btn {
+  padding: 10px 18px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  cursor: pointer;
+  font-size: 12px;
+  transition: all 0.2s ease;
+}
+
+.filters__btn:hover {
+  background-color: #eaeaea;
+}
+
+.filters__btn--active {
+  background-color: #3f79e2;
+  color: #fff;
+  border-color: #3f79e2;
+}
+
+.filters__btn--active:hover {
+  background-color: #9eb8ea;
+  color: #fff;
+  border-color: #9eb8ea;
+}
+
+.filters__toggle-btn {
+  background: #1a73e8;
+  color: #fff;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.filters__toggle-btn:hover {
+  background: #1558b0;
+}
+
+.phone-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 250px));
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.phone-list__no-results {
+  text-align: center;
+  font-size: 16px;
+  color: #666;
+  margin-top: 20px;
+}

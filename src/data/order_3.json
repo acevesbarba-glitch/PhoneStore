@@ -1,0 +1,15 @@
+{
+  "orderId": 3,
+  "createdAt": "2025-12-04T06:42:10.639Z",
+  "currency": "MXN",
+  "totalQuantity": 0,
+  "totalAmount_mxn": 0,
+  "items": [],
+  "customer": {
+    "name": "RICARDO ACEVES Barba",
+    "email": "acevesbarba@hotmail.com",
+    "address": "GUAYCURA",
+    "paymentMethod": "Transferencia"
+  },
+  "status": "RETURNED"
+}

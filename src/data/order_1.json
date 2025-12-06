@@ -1,0 +1,15 @@
+{
+  "orderId": 1,
+  "createdAt": "2025-12-04T06:34:33.626Z",
+  "currency": "MXN",
+  "totalQuantity": 0,
+  "totalAmount_mxn": 0,
+  "items": [],
+  "customer": {
+    "name": "Maria Angelica Martinez Rodriguez",
+    "email": "acevesbarba@hotmail.com",
+    "address": "GUAYCURA 21",
+    "paymentMethod": "Tarjeta"
+  },
+  "status": "RETURNED"
+}
