@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import CartItem from "../components/CartItem/CartItem.jsx";
-import CartModal from "../components/CartModal/CartModal.jsx";
+import CartItem from "../components/CartItem.jsx";
+import CartModal from "../components/CartModal.jsx";
 import { useCartContext } from "../context/CartContext";
-import "../css/CartPage.css";
 function CartPage() {
   const { cartItems, clearCart } = useCartContext();
   const [showModal, setShowModal] = useState(false);

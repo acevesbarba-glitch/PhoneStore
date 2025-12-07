@@ -1,15 +1,48 @@
 {
   "orderId": 3,
-  "createdAt": "2025-12-04T06:42:10.639Z",
+  "createdAt": "2025-12-07T00:48:22.182Z",
   "currency": "MXN",
-  "totalQuantity": 0,
-  "totalAmount_mxn": 0,
-  "items": [],
+  "totalQuantity": 4,
+  "totalAmount_mxn": 79128,
+  "items": [
+    {
+      "id": 30,
+      "name": "Motorola Moto G24",
+      "price_mxn": 8982,
+      "quantity": 1,
+      "subtotal_mxn": 8982,
+      "description": "Gran batería y rendimiento sólido."
+    },
+    {
+      "id": 31,
+      "name": "Asus ROG Phone 9",
+      "price_mxn": 23382,
+      "quantity": 1,
+      "subtotal_mxn": 23382,
+      "description": "Potencia gaming y refrigeración avanzada."
+    },
+    {
+      "id": 42,
+      "name": "Samsung Galaxy S26 Ultra",
+      "price_mxn": 25182,
+      "quantity": 1,
+      "subtotal_mxn": 25182,
+      "description": "Pantalla AMOLED QHD+ LTPO 1-120Hz, cámara periscopio 200MP con IA."
+    },
+    {
+      "id": 43,
+      "name": "Google Pixel 11 Pro",
+      "price_mxn": 21582,
+      "quantity": 1,
+      "subtotal_mxn": 21582,
+      "description": "Tensor G5, Night Sight 2.0 y edición mágica mejorada."
+    }
+  ],
   "customer": {
     "name": "RICARDO ACEVES Barba",
     "email": "acevesbarba@hotmail.com",
     "address": "GUAYCURA",
     "paymentMethod": "Transferencia"
   },
-  "status": "RETURNED"
+  "status": "GENERATED"
 }

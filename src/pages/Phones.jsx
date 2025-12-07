@@ -1,6 +1,6 @@
 import { phones } from "../data/phones";
-import PhoneList from "../components/PhoneList/PhoneList";
-import "../css/CartPage.css";
+import PhoneList from "../components/PhoneList";
+import "../css/styles.css";
 export default function Phones() {
   return (
     <div className="phones">

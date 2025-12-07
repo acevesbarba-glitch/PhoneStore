@@ -1,6 +1,6 @@
-import CartItem from "../components/CartItem/CartItem.jsx";
+import CartItem from "../components/CartItem.jsx";
 import { useCartContext } from "../context/CartContext";
-import "../css/CartPage.css";
+import "../css/styles.css";
 export default function CartPage() {
   const { cartItems, clearCart } = useCartContext();
   const currency = (n) => `$ ${Number(n).toLocaleString("en-US")}`;

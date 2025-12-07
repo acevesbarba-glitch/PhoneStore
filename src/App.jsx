@@ -1,13 +1,13 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 import Phones from "./pages/Phones";
 import PhonePage from "./pages/PhonePage";
 import CartPage from "./pages/CartPage";
 import Returns from "./pages/Returns";
 import NotFound from "./pages/NotFound";
-import Terms from "./components/Terms/Terms"; 
-import ContactInfo from './components/Contact/ContactInfo';
+import Terms from "./components/Terms"; 
+import ContactInfo from './components/ContactInfo';
 function App() {
   return (
     <BrowserRouter>

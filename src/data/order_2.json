@@ -1,15 +1,40 @@
 {
   "orderId": 2,
-  "createdAt": "2025-12-04T06:37:21.026Z",
+  "createdAt": "2025-12-06T23:32:13.822Z",
   "currency": "MXN",
-  "totalQuantity": 0,
-  "totalAmount_mxn": 0,
-  "items": [],
+  "totalQuantity": 3,
+  "totalAmount_mxn": 52146,
+  "items": [
+    {
+      "id": 2,
+      "name": "Samsung Galaxy S25 Ultra",
+      "price_mxn": 25182,
+      "quantity": 1,
+      "subtotal_mxn": 25182,
+      "description": "Pantalla AMOLED QHD+ y zoom mejorado."
+    },
+    {
+      "id": 11,
+      "name": "Asus Zenfone 12",
+      "price_mxn": 14382,
+      "quantity": 1,
+      "subtotal_mxn": 14382,
+      "description": "Compacto y potente con Snapdragon."
+    },
+    {
+      "id": 12,
+      "name": "Realme GT 7 Pro",
+      "price_mxn": 12582,
+      "quantity": 1,
+      "subtotal_mxn": 12582,
+      "description": "Rendimiento bestial a buen precio."
+    }
+  ],
   "customer": {
     "name": "RICARDO ACEVES Barba",
     "email": "acevesbarba@hotmail.com",
-    "address": "GUAYCURA 21",
+    "address": "GUAYCURA",
     "paymentMethod": "Transferencia"
   },
-  "status": "RETURNED"
+  "status": "GENERATED"
 }

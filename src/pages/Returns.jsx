@@ -1,8 +1,8 @@
 import { useState, useMemo } from "react";
 import { createPortal } from "react-dom";
 import { phones } from "../data/phones.js";
-import "../css/Returns.css";
-import ReturnProcess from "../components/Returns/ReturnProcess";
+import "../css/styles.css";
+import ReturnProcess from "../components/ReturnProcess.jsx";
 const formatMXN = (n) => new Intl.NumberFormat("es-MX", { style: "currency", currency: "MXN" }).format(n);
 function AlertModal({ open, title, message, type = "info", onClose }) {
   if (!open) return null;
